@@ -1,0 +1,35 @@
+{
+    "name": "duzhenye/data-object",
+    "description": "A familiar and powerful data object abstraction for PHP",
+    "keywords": [
+        "data",
+        "data object",
+        "data list"
+    ],
+    "homepage": "https://github.com/duzhenye/data-object",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Duzhenye",
+            "email": "info@vframework.cn",
+            "homepage": "http://vframework.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.*",
+        "duzhenye/docs-generator": "0.2.*"
+    },
+    "autoload": {
+        "files": [
+            "autoload.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/utilities/"
+        }
+    }
+}
